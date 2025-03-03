@@ -33,3 +33,15 @@ containers.
 
 * docker-compose -f <FILE_NAME> up
 * docker-compose -f <FILE_NAME> down
+
+
+### Dockerfile example
+
+```dockerfile
+Dockerfile -> blueprint for building images
+FROM (image based on)
+ENV
+RUN (executes linux cmd in container)
+COPY (runs on host)
+CMD (entry point cmd, so only one)
+```
