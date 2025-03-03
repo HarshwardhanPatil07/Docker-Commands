@@ -24,3 +24,12 @@ https://docs.docker.com/reference/cli/docker/
 * docker build -t <IMG_NAME>:<VERSION_TAG> . (build image)
 * docker rm <CONTAINER_ID> (Delete container)
 * docker rmi <IMAGE_ID> (Delete image)
+
+### Docker Compose
+
+Run multiple Docker containers with one command.
+Create in combination with docker swarm with docker swarm you can use docker compose up and services to run multiple
+containers.
+
+* docker-compose -f <FILE_NAME> up
+* docker-compose -f <FILE_NAME> down
